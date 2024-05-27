@@ -2,7 +2,7 @@
 
 **Mini Rede Social**
 
-Este é um projeto simples de uma mini rede social onde os usuários podem criar posts, adicionar imagens e filtrar os posts por categoria. O projeto utiliza HTML, CSS e JavaScript para implementar a funcionalidade.
+Este é um projeto simples de uma mini rede social que implementa operações de CRUD onde os usuários podem criar posts, adicionar imagens e filtrar os posts por categoria. O projeto utiliza HTML, CSS e JavaScript para implementar a funcionalidade.
 
 **Funcionalidades:**
 
