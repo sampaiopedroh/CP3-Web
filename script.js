@@ -173,3 +173,16 @@ categoryFilter.addEventListener('change', renderPosts);
 
 // Renderiza os posts na inicialização
 renderPosts();
+
+//Editar post
+
+function editPost(postId){
+    const postEditar = posts.find(post => post.id === postId)
+    if (postEditar){
+        const modificarTexto = prompt('Editar post:', postEditar.text)
+        if (modificarTexto !== null) {
+            postEditar.text = modificarTexto;
+            renderPosts();
+        }
+    }
+}
