@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Rede Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Rede Social</h1>
+    </header>
+
+    <main>
+        <section id="create-post">
+            <h2>Criar Novo Post</h2>
+            <form id="post-form">
+                <label for="post-text">Texto:</label>
+                <textarea id="post-text" name="post-text" required></textarea>
+
+                <label for="post-category">Categoria:</label>
+                <select id="post-category" name="post-category">
+                    <option value="Tecnologia">Tecnologia</option>
+                    <option value="Viagens">Viagens</option>
+                    <option value="Comida">Comida</option>
+                    <option value="Entretenimento">Entretenimento</option>
+                </select>
+
+                <label for="post-image-1">Imagem 1 (opcional):</label>
+                <input type="url" id="post-image-1" name="post-image-1">
+
+                <label for="post-image-2">Imagem 2 (opcional):</label>
+                <input type="url" id="post-image-2" name="post-image-2">
+
+                <label for="post-image-3">Imagem 3 (opcional):</label>
+                <input type="url" id="post-image-3" name="post-image-3">
+
+                <button type="submit">Criar Post</button>
+            </form>
+        </section>
+
+        <section id="posts">
+            <h2>Posts Recentes</h2>
+            <div id="post-list">
+                <!-- Posts serão exibidos aqui -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
